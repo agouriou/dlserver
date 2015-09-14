@@ -19,7 +19,7 @@ func NewHttpLogger(url string) (httpLogger *HttpLogger){
 
 func HandleError(resp *http.Response, err error){
 	if err != nil {
-		log.Fatalf("Error on http call %s\n", err)
+		log.Printf("Error on http call %s\n", err)
 	}
 }
 
