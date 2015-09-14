@@ -1,0 +1,2 @@
+- afficher le contenu du répertoire
+- télécharger un fichier
